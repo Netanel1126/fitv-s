@@ -22,6 +22,20 @@
 		DB486B552729A52100470A24 /* BaseServerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB486B542729A52100470A24 /* BaseServerRequest.swift */; };
 		DB486B572729A57000470A24 /* GetWorkoutDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB486B562729A57000470A24 /* GetWorkoutDetails.swift */; };
 		DB486B592729A6F700470A24 /* PostWorkoutSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB486B582729A6F700470A24 /* PostWorkoutSummary.swift */; };
+		DB486B5F2729F49300470A24 /* ExercisePlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB486B5E2729F49300470A24 /* ExercisePlan.swift */; };
+		DB486B66272A68B200470A24 /* DINAlternate-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB486B65272A68B100470A24 /* DINAlternate-Bold.ttf */; };
+		DB486B6A272A83DC00470A24 /* SetupPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB486B69272A83DC00470A24 /* SetupPresentor.swift */; };
+		DBEC53A5272A9071009EA22C /* ExerciseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC53A4272A9071009EA22C /* ExerciseData.swift */; };
+		DBEC53A8272A921E009EA22C /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC53A7272A921E009EA22C /* CircleButton.swift */; };
+		DBEC53AA272A9953009EA22C /* ActivityPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC53A9272A9953009EA22C /* ActivityPresentor.swift */; };
+		DBEC53AC272AAFBF009EA22C /* SummaryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC53AB272AAFBF009EA22C /* SummaryPresenter.swift */; };
+		DBEC53AE272AB157009EA22C /* SetupPresentorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC53AD272AB157009EA22C /* SetupPresentorProtocol.swift */; };
+		DBEC53B0272AB198009EA22C /* SetupViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC53AF272AB198009EA22C /* SetupViewProtocol.swift */; };
+		DBEC53B4272AB1DF009EA22C /* ActivityPresentorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC53B3272AB1DF009EA22C /* ActivityPresentorProtocol.swift */; };
+		DBEC53B6272AB215009EA22C /* SummaryPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC53B5272AB215009EA22C /* SummaryPresenterProtocol.swift */; };
+		DBEC53B8272AB239009EA22C /* ActivityViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC53B7272AB239009EA22C /* ActivityViewProtocol.swift */; };
+		DBEC53BA272AB26E009EA22C /* SummaryViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC53B9272AB26E009EA22C /* SummaryViewProtocol.swift */; };
+		DBEC53BC272AB2BC009EA22C /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC53BB272AB2BC009EA22C /* LoaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +56,20 @@
 		DB486B542729A52100470A24 /* BaseServerRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseServerRequest.swift; sourceTree = "<group>"; };
 		DB486B562729A57000470A24 /* GetWorkoutDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWorkoutDetails.swift; sourceTree = "<group>"; };
 		DB486B582729A6F700470A24 /* PostWorkoutSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostWorkoutSummary.swift; sourceTree = "<group>"; };
+		DB486B5E2729F49300470A24 /* ExercisePlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisePlan.swift; sourceTree = "<group>"; };
+		DB486B65272A68B100470A24 /* DINAlternate-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINAlternate-Bold.ttf"; sourceTree = "<group>"; };
+		DB486B69272A83DC00470A24 /* SetupPresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupPresentor.swift; sourceTree = "<group>"; };
+		DBEC53A4272A9071009EA22C /* ExerciseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseData.swift; sourceTree = "<group>"; };
+		DBEC53A7272A921E009EA22C /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		DBEC53A9272A9953009EA22C /* ActivityPresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityPresentor.swift; sourceTree = "<group>"; };
+		DBEC53AB272AAFBF009EA22C /* SummaryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryPresenter.swift; sourceTree = "<group>"; };
+		DBEC53AD272AB157009EA22C /* SetupPresentorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupPresentorProtocol.swift; sourceTree = "<group>"; };
+		DBEC53AF272AB198009EA22C /* SetupViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewProtocol.swift; sourceTree = "<group>"; };
+		DBEC53B3272AB1DF009EA22C /* ActivityPresentorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityPresentorProtocol.swift; sourceTree = "<group>"; };
+		DBEC53B5272AB215009EA22C /* SummaryPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryPresenterProtocol.swift; sourceTree = "<group>"; };
+		DBEC53B7272AB239009EA22C /* ActivityViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewProtocol.swift; sourceTree = "<group>"; };
+		DBEC53B9272AB26E009EA22C /* SummaryViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewProtocol.swift; sourceTree = "<group>"; };
+		DBEC53BB272AB2BC009EA22C /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,24 +102,126 @@
 		DB486B33272983B700470A24 /* fitV’s */ = {
 			isa = PBXGroup;
 			children = (
+				DB486B5B2729F41F00470A24 /* Base */,
+				DB486B64272A688200470A24 /* Fonts */,
+				DB486B5D2729F45500470A24 /* Model */,
+				DB486B5A2729F40700470A24 /* Services */,
+				DB486B5C2729F44500470A24 /* UI */,
 				DB486B34272983B700470A24 /* AppDelegate.swift */,
 				DB486B36272983B700470A24 /* SceneDelegate.swift */,
-				DB486B38272983B700470A24 /* ViewController.swift */,
-				DB486B542729A52100470A24 /* BaseServerRequest.swift */,
-				DB486B48272986C500470A24 /* StateEnum.swift */,
 				DB486B3A272983B700470A24 /* Main.storyboard */,
 				DB486B3D272983BE00470A24 /* Assets.xcassets */,
 				DB486B3F272983BE00470A24 /* LaunchScreen.storyboard */,
 				DB486B42272983BE00470A24 /* Info.plist */,
-				DB486B4A2729873C00470A24 /* ActivityViewController.swift */,
-				DB486B5227299DE900470A24 /* SetupViewController.swift */,
-				DB486B4E2729983F00470A24 /* SummaryViewController.swift */,
-				DB486B4C2729881200470A24 /* Exercise.swift */,
-				DB486B502729988F00470A24 /* Consts.swift */,
+			);
+			path = "fitV’s";
+			sourceTree = "<group>";
+		};
+		DB486B5A2729F40700470A24 /* Services */ = {
+			isa = PBXGroup;
+			children = (
 				DB486B562729A57000470A24 /* GetWorkoutDetails.swift */,
 				DB486B582729A6F700470A24 /* PostWorkoutSummary.swift */,
 			);
-			path = "fitV’s";
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DB486B5B2729F41F00470A24 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DB486B502729988F00470A24 /* Consts.swift */,
+				DB486B542729A52100470A24 /* BaseServerRequest.swift */,
+				DB486B48272986C500470A24 /* StateEnum.swift */,
+				DBEC53A4272A9071009EA22C /* ExerciseData.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DB486B5C2729F44500470A24 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DB486B67272A82E000470A24 /* Protocols */,
+				DBEC53A6272A9199009EA22C /* Views */,
+				DB486B68272A82FA00470A24 /* Presentors */,
+				DB486B612729FC8D00470A24 /* ViewControllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DB486B5D2729F45500470A24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB486B5E2729F49300470A24 /* ExercisePlan.swift */,
+				DB486B4C2729881200470A24 /* Exercise.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB486B612729FC8D00470A24 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB486B38272983B700470A24 /* ViewController.swift */,
+				DB486B5227299DE900470A24 /* SetupViewController.swift */,
+				DB486B4A2729873C00470A24 /* ActivityViewController.swift */,
+				DB486B4E2729983F00470A24 /* SummaryViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DB486B64272A688200470A24 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DB486B65272A68B100470A24 /* DINAlternate-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DB486B67272A82E000470A24 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DBEC53B1272AB1AD009EA22C /* Presentors */,
+				DBEC53B2272AB1BC009EA22C /* Views */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		DB486B68272A82FA00470A24 /* Presentors */ = {
+			isa = PBXGroup;
+			children = (
+				DB486B69272A83DC00470A24 /* SetupPresentor.swift */,
+				DBEC53A9272A9953009EA22C /* ActivityPresentor.swift */,
+				DBEC53AB272AAFBF009EA22C /* SummaryPresenter.swift */,
+			);
+			path = Presentors;
+			sourceTree = "<group>";
+		};
+		DBEC53A6272A9199009EA22C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBEC53A7272A921E009EA22C /* CircleButton.swift */,
+				DBEC53BB272AB2BC009EA22C /* LoaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DBEC53B1272AB1AD009EA22C /* Presentors */ = {
+			isa = PBXGroup;
+			children = (
+				DBEC53AD272AB157009EA22C /* SetupPresentorProtocol.swift */,
+				DBEC53B3272AB1DF009EA22C /* ActivityPresentorProtocol.swift */,
+				DBEC53B5272AB215009EA22C /* SummaryPresenterProtocol.swift */,
+			);
+			path = Presentors;
+			sourceTree = "<group>";
+		};
+		DBEC53B2272AB1BC009EA22C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBEC53AF272AB198009EA22C /* SetupViewProtocol.swift */,
+				DBEC53B7272AB239009EA22C /* ActivityViewProtocol.swift */,
+				DBEC53B9272AB26E009EA22C /* SummaryViewProtocol.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +284,7 @@
 			files = (
 				DB486B41272983BE00470A24 /* LaunchScreen.storyboard in Resources */,
 				DB486B3E272983BE00470A24 /* Assets.xcassets in Resources */,
+				DB486B66272A68B200470A24 /* DINAlternate-Bold.ttf in Resources */,
 				DB486B3C272983B700470A24 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,18 +296,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBEC53B4272AB1DF009EA22C /* ActivityPresentorProtocol.swift in Sources */,
+				DBEC53B8272AB239009EA22C /* ActivityViewProtocol.swift in Sources */,
 				DB486B49272986C500470A24 /* StateEnum.swift in Sources */,
 				DB486B512729988F00470A24 /* Consts.swift in Sources */,
 				DB486B39272983B700470A24 /* ViewController.swift in Sources */,
 				DB486B552729A52100470A24 /* BaseServerRequest.swift in Sources */,
 				DB486B35272983B700470A24 /* AppDelegate.swift in Sources */,
+				DB486B5F2729F49300470A24 /* ExercisePlan.swift in Sources */,
 				DB486B4B2729873C00470A24 /* ActivityViewController.swift in Sources */,
 				DB486B592729A6F700470A24 /* PostWorkoutSummary.swift in Sources */,
+				DBEC53AA272A9953009EA22C /* ActivityPresentor.swift in Sources */,
 				DB486B37272983B700470A24 /* SceneDelegate.swift in Sources */,
 				DB486B4F2729983F00470A24 /* SummaryViewController.swift in Sources */,
+				DBEC53AC272AAFBF009EA22C /* SummaryPresenter.swift in Sources */,
+				DBEC53A5272A9071009EA22C /* ExerciseData.swift in Sources */,
+				DBEC53A8272A921E009EA22C /* CircleButton.swift in Sources */,
+				DB486B6A272A83DC00470A24 /* SetupPresentor.swift in Sources */,
 				DB486B5327299DE900470A24 /* SetupViewController.swift in Sources */,
+				DBEC53B0272AB198009EA22C /* SetupViewProtocol.swift in Sources */,
 				DB486B4D2729881200470A24 /* Exercise.swift in Sources */,
+				DBEC53AE272AB157009EA22C /* SetupPresentorProtocol.swift in Sources */,
 				DB486B572729A57000470A24 /* GetWorkoutDetails.swift in Sources */,
+				DBEC53BC272AB2BC009EA22C /* LoaderView.swift in Sources */,
+				DBEC53B6272AB215009EA22C /* SummaryPresenterProtocol.swift in Sources */,
+				DBEC53BA272AB26E009EA22C /* SummaryViewProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
